@@ -1,0 +1,38 @@
+
+*{
+    margin: 0px;
+}
+
+.nav-section-container{
+    background-color: tomato;
+    border-radius: 0 0 0 50px;
+}
+
+.navbar-container{
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.navbar-right{
+    display: inline-flex;
+   
+}
+
+.navbar-right ul{
+   
+    list-style: none;
+    display: flex;
+    
+}
+
+.navbar-right li a{
+   
+    padding: 0px 5px;
+    text-decoration: none;
+    color: white;
+}
+
+
+

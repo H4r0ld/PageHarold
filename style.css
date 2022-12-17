@@ -1,38 +1,144 @@
-
-*{
-    margin: 0px;
+* {
+  margin: 0px;
 }
 
-.nav-section-container{
-    background-color: tomato;
-    border-radius: 0 0 0 50px;
+.nav-section-container {
+  background-color: tomato;
+  border-radius: 0 0 0 100px;
 }
 
-.navbar-container{
-    padding: 40px 100px;
+.navbar-container {
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.navbar-right ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-right li a {
+  padding: 0px 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.biografia-container {
+  padding: 20px 200px 100px 200px;
+}
+
+.biografia {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+
+.biografia h1 {
+  margin-bottom: 40px;
+}
+
+.icons {
+  padding: 200px 0px 0px 0px;
+}
+
+.icons ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px;
+}
+
+.icons li {
+  list-style: none;
+  color: white;
+}
+
+.icons img {
+  width: 70px;
+  height: 70px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 0;
+}
+
+.skills {
+  padding: 100px 0 0 0;
+}
+
+.skills h1 {
+  padding: 0 0 50px 0;
+  text-align: center;
+  color: tomato;
+}
+
+.skills ul {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.skills li {
+  list-style: none;
+  padding: 5px;
+  color: darkslateblue;
+
+}
+
+.card-container {
+
     display: flex;
-    justify-content: space-between;
-    color: white;
-}
-
-.navbar-right{
-    display: inline-flex;
-   
-}
-
-.navbar-right ul{
-   
+    background-color: darkslateblue;
+    flex-flow: row wrap;
+    justify-content: space-around;
     list-style: none;
-    display: flex;
-    
-}
+    padding: 100px 0;
+    border-radius: 0 100px 0 100px;
 
-.navbar-right li a{
-   
-    padding: 0px 5px;
-    text-decoration: none;
+  }
+  
+  .card-item {
+    width: 300px;
+    height: 440px;
     color: white;
-}
+    margin: 20px;
+    border: 1px solid bisque;
+    border-radius: 10px 0px 10px 0;
+    
+  }
 
+  .card-item h3 {
+    text-align: center;
+    padding: 10px 0;
+  }
 
+  .card-item p {
+    padding: 0 10px;
+  }
 
+  .card-item a {
+    display: flex;
+    text-align: end;
+    padding: 15px 10px;
+  }
+
+  .card-item:nth-child(2n){
+    border-radius: 0px 10px 0px 10px;
+  }
+
+  li > img{
+    width: 100%;
+    height: 55%;
+    border-radius: 10px 0 0 0;
+  }
+
+  .card-item:nth-child(2n) img{
+    border-radius: 0px 10px 0px 0px;
+  }
+
+  

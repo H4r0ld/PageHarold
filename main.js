@@ -5,6 +5,5 @@ imgmobileMenu.addEventListener('click', toggleMobileMenu);
 
 function toggleMobileMenu(){
 
-    console.log("Clik hps");
-    mobileMenu.classList.toggle('inactive');
+        mobileMenu.classList.toggle('inactive');
 }
